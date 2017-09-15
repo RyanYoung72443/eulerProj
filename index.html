@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="https://projecteuler.net/favicon.ico">
+	<title>Project Euler Computations</title>
+	<script src="javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<h1 class="mainTitle">Project Euler Computations</h1>
+	<p class="intro">This is site with computations to solve Project Euler problems</p>
+
+	<div class="math">
+		<h1 class="title">Multiples of 3 and 5</h1>
+		<h2 class="title"><a href="https://projecteuler.net/problem=1" target="_blank">Problem 1</a></h2>
+		<p class="question">If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+		<br><br>
+		Find the sum of all multiples of 3 or 5 below
+		<input type="text" class="input" id="input1" value="1000">
+		</p>
+		<div class="button" onclick="solution1()">Solve</div>
+		<div class="answer" id="answer1"></div>
+	</div>
+
+	<div class="math">
+		<h1 class="title">Your problem</h1>
+		<p class="question">Now lets find the sum of any two multiples.
+		<br><br>
+		Find the sum of all multiples of
+		<input type="text" class="input" id="input2" value="12">
+		or
+		<input type="text" class="input" id="input3" value="15">
+		below
+		<input type="text" class="input" id="input4" value="700">
+		</p>
+		<div class="button" onclick="solution2()">Solve</div>
+		<div class="answer" id="answer2"></div>
+	</div>
+</body>
+</html>
